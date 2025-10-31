@@ -1,7 +1,7 @@
 module github.com/asynkron/protoactor-go
 
 // because etcd/v3 need go 1.21 version
-go 1.21
+go 1.23
 
 require (
 	github.com/Workiva/go-datastructures v1.1.3
@@ -21,7 +21,7 @@ require (
 	go.opentelemetry.io/otel/sdk/metric v1.21.0
 	golang.org/x/net v0.21.0
 	google.golang.org/grpc v1.60.1
-	google.golang.org/protobuf v1.33.0
+	google.golang.org/protobuf v1.36.10
 )
 
 require (
@@ -64,7 +64,7 @@ require (
 	github.com/go-openapi/jsonreference v0.20.2 // indirect
 	github.com/go-openapi/swag v0.22.3 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
-	github.com/google/go-cmp v0.6.0 // indirect
+	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-hclog v1.5.0 // indirect
